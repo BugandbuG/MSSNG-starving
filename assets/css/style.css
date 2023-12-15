@@ -146,9 +146,7 @@ html {
 } */
 
 /* Hide the images by default */
-.mySlides {
-  display: none;
-}
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -167,10 +165,7 @@ html {
 }
 
 /* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -240,9 +235,7 @@ html {
     font-size: 15px;
     margin-top: 25px;
 }
-#content {
 
-}
 #content .content-section {
     width: 800px;
     margin-left: auto;
