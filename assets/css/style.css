@@ -132,10 +132,12 @@ html {
     /* display: none; */
     
     position:  relative;
+    /* display: block; */
     margin-top: 46px;
     /* min-height: 500px; */
-    /* padding-top: 50%; */
-    /* background: top center / cover no-repeat; */
+    padding-top: 50%;
+    background: url('/assets/img/slider/Poster.png') top center / contain repeat;
+    /* background-size: 100% center; */
 }
 /* .slideshow-container {
   max-width: 1000px;
@@ -269,6 +271,8 @@ html {
     line-height: 1.4;
 }
 #content .member-item {
+    
+
     text-align: center;
     
     padding-top: 48px;
@@ -280,7 +284,13 @@ html {
     font-size: 15px;
 
 }
+.member-list1 {
+    display: block;
+    width: 100%;
+    
+}
 #content .member-img {
+    background-size: 100% auto;
     width: 154px;
     margin-top: 15px;
     border-radius: 4px;
